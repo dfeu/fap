@@ -1,0 +1,7 @@
+# this redirects everything to 127.0.0.111
+local-zone: "." redirect
+local-data: ". IN A 127.0.0.111"
+
+# override for whitelisted domains to resolve normally
+local-zone: "ptb.de" transparent
+local-zone: "spiekermann.it" transparent
