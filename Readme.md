@@ -1,7 +1,7 @@
 # FAP - Forensischer Accesspoint
 
 ## Information
-Details nur auf Anfrage an 
+Details nur auf Anfrage an fap@spiekermann.it oder die bekannte E-Mailadresse.
 
 
 ## Nutzung
