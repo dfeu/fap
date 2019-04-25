@@ -9,6 +9,7 @@ echo "<tr><td><img src=./pics/whatsapp.jpg width=80 height=80></td> <td> <input 
 echo "<tr><td><img src=./pics/facebook.png width=80 height=80></td> <td> <input type=\"checkbox\" name=\"msg[]\" value=\"fb\">Facebook<br>";
 echo "<tr><td><img src=./pics/line.png width=80 height=80></td> <td> <input type=\"checkbox\" name=\"msg[]\" value=\"line\">Line<br>";
 echo "<tr><td><img src=./pics/tiktok.png width=80 height=80></td> <td> <input type=\"checkbox\" name=\"msg[]\" value=\"tiktok\">TikTok<br>";
+echo "<tr><td><img src=./pics/telegram.jpg width=80 height=80></td> <td> <input type=\"checkbox\" name=\"msg[]\" value=\"telegram\">Telegram<br>";
 echo "<tr><td><img src=./pics/knuddels.jpg width=80 height=80></td> <td> <input type=\"checkbox\" name=\"msg[]\" value=\"knuddels\">Knuddels<br>";
 echo "<tr><td><img src=./pics/snapchat.png width=80 height=80></td> <td> <input type=\"checkbox\" name=\"msg[]\" value=\"sc\">Snapchat<br>";
 echo "<tr><td><input type=\"submit\" value=\"Senden\"></td></tr>";
