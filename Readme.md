@@ -6,6 +6,7 @@ Details nur auf Anfrage an fap@spiekermann.it oder die bekannte E-Mailadresse.
 
 ## Nutzung
 Dieses Verzeichnis clonen (per `git clone`), um den aktuellen Stand zu erhalten.
+
 Dieses Verzeichnis "ziehen" (per `git pull`), um Updates zu erhalten.
 
 ## FAQ
