@@ -12,6 +12,7 @@ echo "<tr><td><img src=./pics/tiktok.png width=80 height=80></td> <td> <input ty
 echo "<tr><td><img src=./pics/telegram.jpg width=80 height=80></td> <td> <input type=\"checkbox\" name=\"msg[]\" value=\"telegram\">Telegram<br>";
 echo "<tr><td><img src=./pics/knuddels.jpg width=80 height=80></td> <td> <input type=\"checkbox\" name=\"msg[]\" value=\"knuddels\">Knuddels<br>";
 echo "<tr><td><img src=./pics/snapchat.png width=80 height=80></td> <td> <input type=\"checkbox\" name=\"msg[]\" value=\"sc\">Snapchat<br>";
+echo "<tr><td><img src=./pics/playstore.jpg width=80 height=80></td> <td> <input type=\"checkbox\" name=\"msg[]\" value=\"play\">Google Play<br>";
 echo "<tr><td><input type=\"submit\" value=\"Senden\"></td></tr>";
 echo "</table>";
 
