@@ -5,3 +5,5 @@ googleusercontent.com
 ggpht.com
 android.clients.google.com
 l.google.com
+gvt1.com
+connectivitycheck.gstatic.com
