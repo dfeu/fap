@@ -117,6 +117,9 @@ echo "<a href=./proc.php>Status</a><br>";
 echo "<a href=./munin/>Munin Monitoring</a><br>";
 echo "<a href=./wlan_ap.php>WLAN-AP only</a><br>";
 echo "<a href=./probleme.php>Problembehebung</a>";
+echo "<hr>";
+
+echo "<a href=./reboot2.php>Reboot</a>";
 function getWhitelist($datei)
 {
 	$inhalt = file_get_contents($datei);
