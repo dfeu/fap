@@ -4,6 +4,7 @@ local-data: ". IN A 127.0.0.111"
 
 # override for whitelisted domains to resolve normally
 local-zone: "ptb.de" transparent
+local-zone: "debian.pool.ntp.org" transparent
 local-zone: "github.com" transparent
 local-zone: "raspberrypi.org" transparent
 local-zone: "mirror.netcologne.de" transparent
