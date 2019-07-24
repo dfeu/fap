@@ -1,5 +1,7 @@
 <?php
 
+shell_exec("sudo killall -s SIGINT tshark");
+sleep(1);
 shell_exec("sudo killall tshark");
 shell_exec("sudo mv ../mitschnitt.pcap ../mitschnitt_finished.pcap");
 shell_exec("sudo chmod 744 ../mitschnitt_finished.pcap");
