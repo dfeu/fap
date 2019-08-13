@@ -16,7 +16,7 @@ echo "Kille die Untersuchung";
 #shell_exec("sudo killall inotifywait");
 
 # tshark
-shell_exec("sudo killall tshark");
+shell_exec("sudo pkill -f tshark");
 
 echo "<p>";
 echo "<a href=./index.php>Zurück</a>";#

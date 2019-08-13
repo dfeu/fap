@@ -89,6 +89,7 @@ if ($aufzeichnung==1) {
 	echo "Aufzeichnung läuft";
 	echo "<br>Die folgenden Seiten sind erreichbar:<br>";
 	getWhitelist($f);
+	echo "<br><a href=./forensicView.php>Detailansicht anzeigen</a>";
 	echo "<br><a href=./kill.php>Aufzeichnung stoppen</a>";
 } else {
 if ($secure != 0) {
