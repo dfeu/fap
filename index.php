@@ -46,7 +46,7 @@ echo "<tr><td colspan=\"2\"><center><b>Mirroring</b></center></td></tr>";
 echo "<tr><td>Status</td><td>";
 	
 $ovs = shell_exec("sudo ovs-vsctl list Mirror mirror1");
-if (count($ovs)!=1) {
+if (count((array)$ovs)!=1) {
 	echo "<span style=\"color:#FF0000\"> deaktiviert<br></span>";
 } else {
 	echo "<span style=\"color:#298A08\"> aktiv<br></span>";
@@ -115,7 +115,7 @@ echo "<a href=./fw_reset.php>Firewall umschalten</a><br>";
 echo "<a href=./fw_stats.php>Firewalldetails</a>";
 echo "<hr>";
 echo "<a href=./proc.php>Status</a><br>";
-echo "<a href=./munin/>Munin Monitoring</a><br>";
+echo "<a href=../munin/>Munin Monitoring</a><br>";
 echo "<a href=./wlan_ap.php>WLAN-AP only</a><br>";
 echo "<a href=./probleme.php>Problembehebung</a>";
 echo "<hr>";

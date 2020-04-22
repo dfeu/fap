@@ -14,7 +14,7 @@ if ($menge >10) {
 	shell_exec("sudo ipset flush WL");
 } else {
 	echo "Aktiviere die Firewall";
-	shell_exec("sudo iptables-restore < /home/pi/forward.txt");
+	shell_exec("sudo iptables-restore < /home/pi/src/forward.txt");
 }
 
 echo "<p>";
