@@ -45,7 +45,7 @@ echo "</td></tr>";
 echo "<tr><td colspan=\"2\"><center><b>Mirroring</b></center></td></tr>";
 echo "<tr><td>Status</td><td>";
 	
-$ovs = shell_exec("sudo ovs-vsctl list Mirror mirror1");
+$ovs = shell_exec("sudo ovs-vsctl list Mirror m0");
 if (count((array)$ovs)!=1) {
 	echo "<span style=\"color:#FF0000\"> deaktiviert<br></span>";
 } else {
