@@ -95,7 +95,7 @@ if ($aufzeichnung==1) {
 if ($secure != 0) {
 	echo "Das abgesicherte Surfen ist zu den folgenden Seiten möglich:<p>";
 	getWhitelist($f);
-	echo "<p><a href=start.php>Start der Untersuchung</a>";
+	echo "<a target=\"popup\" onclick=\"window.open ('', 'popup', 'width=580,height=360,scrollbars=no, toolbar=no,status=no,  resizable=yes,menubar=no,location=no,directories=no,top=10,left=10') \"href=\"start.php\">Start der Untersuchung</a>";
 } else {
 	echo "Sicheres Abrufen der Daten <b>NICHT</b> möglich";
 }
