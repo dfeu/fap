@@ -58,11 +58,11 @@ echo "</td></tr>";
 echo "<tr><td colspan=\"2\"><center><b>Pipeline zur Überwachung</b></center></td></tr>";
 echo "<tr><td>Status</td><td>";
 
-if  (file_exists("/home/pi/dns")) {
+if  (file_exists("/home/pi/ips")) {
 	echo "<span style=\"color:#298A08\"> existent<br></span>";
 } else {
 	echo "<span style=\"color:#FF0000\"> fehlt<br></span>";
-	echo "Bitte \"sudo mkfifo /home/pi/dns\" in der Konsole eingebe";
+	echo "Bitte \"sudo mkfifo /home/pi/ips\" in der Konsole eingebe";
 }
 
 echo "</td></tr>";
