@@ -7,3 +7,4 @@ Facebook:fb.txt
 Telegram:telegram.txt
 Google Maps:maps.txt
 TikTok:tiktok.txt
+Xiaomi:mi.txt
