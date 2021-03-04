@@ -1,1 +1,8 @@
 srv.sec.intl.miui.com
+sdkconfig.ad.intl.xiaomi.com
+api.ad.intl.xiaomi.com
+find.api.micloud.xiaomi.net
+zeus.ad.intl.xiaomi.com
+api.sec.miui.com
+sec.miui.com
+account.xiaomi.com
