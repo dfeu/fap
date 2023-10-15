@@ -1,7 +1,7 @@
 # FAP - Forensischer Accesspoint
 
 ## Information
-Details nur auf Anfrage an fap@spiekermann.it oder die bekannte E-Mailadresse bei der PA Niedersachsen.
+Details nur auf Anfrage an fap@spiekermann.it.
 
 
 ## Nutzung
@@ -12,4 +12,3 @@ Dieses Verzeichnis "ziehen" (per `git pull`), um Updates zu erhalten.
 ## FAQ
 - Es gibt keine Vorgabe mehr für die Hardware-Basis, jedes Raspberry Modell erscheint ;-) möglich
 - Ein WLAN-Modul wird benötigt (muss als wlan0-Interface erkannt werden)
-- Eine separate USB-RJ45-NIC muss beim Installieren angeschlossen sein
